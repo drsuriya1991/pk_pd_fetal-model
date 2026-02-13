@@ -1,1 +1,24 @@
-📊 Comparative Analysis: Resolving the Under-prediction GapThe unified scaffold demonstrates that for drugs like Cefazolin (CZ), a purely filtrative model is insufficient. By comparing "Passive" vs. "Active" renal handling, we visualize how the inclusion of fetal tubular secretion resolves a major clinical under-prediction gap.+2Passive Filtration Only: Relying solely on $f_{u,f} \times GFR$ results in amniotic concentrations that hug the detection limit ($10^{-2}$ mg/L range), failing to match literature data.+2Active Fetal Secretion: Introducing $CL_{sec,f}$ (0.0025 L/h) acts as a mechanistic "pump," shifting the amniotic concentration into the $10^{-1}$ mg/L range observed in clinical studies.+1🧬 Decoding the "Amniotic Trap"Logarithmic profiles reveal a critical pharmacokinetic phenomenon: while maternal plasma clears the drug rapidly, the fetal environment remains saturated.+1Recirculation Loop: Drug enters via fetal urine and is swallowed back by the fetus ($Q_{swallow}$), re-absorbing into fetal blood.+1Persistent Exposure: Fetal and amniotic AUCs remain elevated for 48+ hours, creating a long-term reservoir for the developing fetus.+2👶 Gestational Age (GA) Effect & Population VariabilityThe model allows for "what-if" scenarios across different pregnancy stages and virtual populations.+1Preterm Risk: Earlier gestational ages (e.g., GA 25) can show slower approach to steady-state but different late-time plateaus due to the immature balance of GFR and swallowing.+1Safety Intervals: A 90% Population Prediction Interval (PPI) quantifies inter-individual spread, illustrating that even under secretion variability, the "amniotic trap" remains robust
+# 📊 Comparative Analysis: Resolving the Under-prediction Gap
+
+The unified scaffold demonstrates that for drugs like **Cefazolin (CZ)**, a purely filtrative model is insufficient. By comparing "Passive" vs. "Active" renal handling, we visualize how the inclusion of fetal tubular secretion resolves a major clinical under-prediction gap.
+
+* **Passive Filtration Only**: Relying solely on $f_{u,f} \times GFR$ results in amniotic concentrations that hug the detection limit ($10^{-2}$ mg/L range), failing to match literature data.
+* **Active Fetal Secretion**: Introducing $CL_{sec,f}$ (0.0025 L/h) acts as a mechanistic "pump," shifting the amniotic concentration into the $10^{-1}$ mg/L range observed in clinical studies.
+
+---
+
+# 🧬 Decoding the "Amniotic Trap"
+
+Logarithmic profiles reveal a critical pharmacokinetic phenomenon: while maternal plasma clears the drug rapidly, the fetal environment remains saturated.
+
+* **Recirculation Loop**: Drug enters via fetal urine and is swallowed back by the fetus ($Q_{swallow}$), re-absorbing into fetal blood.
+* **Persistent Exposure**: Fetal and amniotic AUCs remain elevated for 48+ hours, creating a long-term reservoir for the developing fetus.
+
+---
+
+# 👶 Gestational Age (GA) Effect & Population Variability
+
+The model allows for "what-if" scenarios across different pregnancy stages and virtual populations.
+
+* **Preterm Risk**: Earlier gestational ages (e.g., GA 25) can show a slower approach to steady-state but different late-time plateaus due to the immature balance of GFR and swallowing.
+* **Safety Intervals**: A 90% Population Prediction Interval (PPI) quantifies inter-individual spread, illustrating that even under secretion variability, the "amniotic trap" remains robust.
